@@ -2,6 +2,7 @@
 <html lang="pt-BR">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
         <title>
             MusicDot | MusicDot | Sobre a empresa
         </title>
@@ -79,8 +80,11 @@
             <li> Mais de um milhão de funcionários em todo o mundo </li>
         </ul>
 
-        <h2 class="titulo"> Contato </h2>
+        <h2 class="titulo"> Entre em contato</h2>
 
+        <p> <a href="contato.html"> Clique aqui para nos enviar um mensagem </a> </p>
+
+        <div class="contato_secao">
         <h3 class="contato_subtitulo"> Correspondência </h3>
         <small> (todos os dias, das 9h às 18h) </small>
 
@@ -93,16 +97,29 @@
             <br>
             São Paulo - SP
         </address>
+        </div>
 
+        <div id="contato" class="contato_secao cont_secao-telefone">
         <h3 class="contato_subtitulo"> Telefones </h3>
         <small> (segunda à sexta, das 9h às 18h) </small>
 
         <dl class="contato_info">
-            <dt> Pessoa Física: </dt>
-            <dd> <a href="tel://114118-3319"> (11) 4118-3319 </a> </dd>
-            <dt> Pessoa Jurídica: </dt>
-            <dd> <a href="tel://114118-2172"> (11) 4118-2172 </a> </dd>
+            <div>
+                <dt class="cont-info-titulo"> Pessoa Física: </dt>
+                <dd class="cont_info-descricao"> <a href="tel://114118-3319"> (11) 4118-3319 </a> </dd>
+            </div>
+
+            <div>
+                <dt class="cont_info-titulo"> Pessoa Jurídica: </dt>
+                <dd class="cont-info-descricao"> <a href="tel://114118-2172"> (11) 4118-2172 </a> </dd>
+            </div>
         </dl>
+        </div>
+
+        <footer class="rodape">
+            <img src="img/logo.svg" alt="Logo da musicdot" class="rodape__logo">
+            <p class="rodape_copyright"> &copy; Copyright MusicDot </p>
+        </footer>
 
     </body>
 </html>
